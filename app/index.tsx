@@ -11,6 +11,12 @@ const Page = () => {
       <Link href="/feed" asChild>
        <Button title="Open Feed Page" />
         </Link>
+      <Link href="/details/42" asChild>
+       <Button title="Open Details 42" />
+        </Link>
+      <Link href="/details/1337" asChild>
+       <Button title="Open Details 1337" />
+        </Link>
     </View>
   )
 }
